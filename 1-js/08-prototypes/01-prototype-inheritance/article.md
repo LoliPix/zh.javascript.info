@@ -131,7 +131,7 @@ alert(longEar.jumps); // true（从 rabbit）
 
 当然，这可能很显而易见，但是仍然要强调：只能有一个 `[[Prototype]]`。一个对象不能从其他两个对象获得继承。
 
-```smart header="`__proto__` 是 `[[Prototype]]` 的因历史原因而留下来的 getter/setter"
+```smart header="`__proto__` 是因 `[[Prototype]]` 的历史原因而留下来的 getter/setter"
 初学者常犯一个普遍的错误，就是不知道 `__proto__` 和 `[[Prototype]]` 的区别。
 
 请注意，`__proto__` 与内部的 `[[Prototype]]` **不一样**。`__proto__` 是 `[[Prototype]]` 的 getter/setter。稍后，我们将看到在什么情况下理解它们很重要，在建立对 JavaScript 语言的理解时，让我们牢记这一点。
